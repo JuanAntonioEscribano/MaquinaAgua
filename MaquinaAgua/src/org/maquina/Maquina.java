@@ -34,9 +34,9 @@ public class Maquina {
 			System.out.println(e.getMessage());
 		}
 	}
-/** 
- * @return Devuelve la cantidad de monedas que tiene la maquina y el cambio total que tiene 
- */
+	/** 
+	 * @return Devuelve la cantidad de monedas que tiene la maquina y el cambio total que tiene 
+	 */
 	public String visualizarCambio() {
 		return "::::::::::::::::::::::::::::::::::::::::::\n::\t\t\t\t\t::"
 				+ "\n::\tMonedas de 10 centimos: "+moneda.getCent10()+"\t::\n::\tMonedas de 20 centimos: "+moneda.getCent20()+"\t::\n::\tMonedas de 50 centimos: "
